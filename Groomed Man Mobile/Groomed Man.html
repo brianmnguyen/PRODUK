@@ -1,0 +1,1274 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <!-- disable iPhone inital scale -->
+  <meta name="viewport"  content="width=device-width, minimum-scale=1.0, maximum-scale=1.0,user-scalable=0" />
+
+  <title>Produk.me</title>
+  <link href="/assets/application-tite-survey-d649d7b4c465201d653fecf944b5c5cd.css" media="screen" rel="stylesheet" type="text/css" /><script src="/assets/surveyor/jquery-1.9.0-49b02a507ed73936b956d96526036809.js" type="text/javascript"></script>
+<script src="/assets/surveyor/jquery-ui-1.10.0.custom-b77b1561dd61d6b775a48b8ecac571f0.js" type="text/javascript"></script>
+<script src="/assets/surveyor/jquery-ui-timepicker-addon-7872266baf03b12d75b8afecd15f00a6.js" type="text/javascript"></script>
+<script src="/assets/surveyor/jquery.selectToUISlider-cd339e13b20dd3b5f992f042ebb08ee5.js" type="text/javascript"></script>
+<script src="/assets/surveyor/jquery.surveyor-8068ca0b9cd92750f670dac2a10e9ed4.js" type="text/javascript"></script>
+<script src="/assets/surveyor/jquery.maskedinput-13ad8482684294194a2c0af22593f14c.js" type="text/javascript"></script>
+<script src="/assets/surveyor/popup_dialog-1dab3260e7e977a3f13f032cf04106ef.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/flipCounter-7ecfe2595dc360c0c16fd61c67e3d474.js" type="text/javascript"></script>
+<script src="/assets/highcharts/highcharts-e87a083387f5e8c9b8ff786f4dbd74a5.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/survey_utilities-f14ece1d7f61faf79a546bd9fc9e8958.js" type="text/javascript"></script>
+<script src="/assets/jquery.jcarousel.min-f0f691e9d46894bf473ca72263ee641c.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/jquery-idle-fdd5f2769f92899cf3bff976cbccb10d.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/mobile_survey-c5c68bf90d42995ed6d1024374d501d1.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/touch-8bd7a5268495207ecce771c484c5c056.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/swiper-22ce1d1762dd2805274dcc8fc2f3fd7a.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/8bitlit-4897324e28f54c63e8ff2a713f4f30f1.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/tite-2a008435e88e18c56a21a58902df3912.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/orient-91c2acc94cb64cf33cbda93bc2ac93e6.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/enquire-e9e5e0e86f2a53c5dfff03dedb807eca.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/cookies-9c2fa8603a695c6c26d80227ced88fd9.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/numeric-b9fbd44792cdc9922673343f324937f1.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/jStepper-fbf5d0a3c8f2f6c5edf73ba2e58918bd.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/color/spectrum-4fee4f2172fa2ad4970b06e1f008bd1d.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/color/prettify-41288e406d9da3e172c77bea2a412c87.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/color/jquery.spectrum-en-c4058969ea089d0d1609da5f3ca5ab75.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/color/example-d22075fc6ed26635d920f19a3a2e8108.js" type="text/javascript"></script>
+
+  <link rel="shortcut icon" href="images/favicon.ico" />
+  <!-- html5.js for IE less than 9 -->
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- css3-mediaqueries.js for IE less than 9 -->
+  <!--[if lt IE 9]>
+  <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <![endif]-->
+  <link href="/assets/mobile/css480x800/font-face-99c2073309809a3e49a3d7ca1b760a92.css" media="screen" rel="stylesheet" type="text/css" />
+      <script src="/assets/experiment_survey/groomed_man_onboarding-b6f288996822b937ef6702399b73c010.js" type="text/javascript"></script>
+      <link href="/assets/mobile/css480x800/groomed_man-662c6d08d0de0f8a9cd897ab69c82f74.css" media="screen" rel="stylesheet" type="text/css" />
+
+  <link href="/assets/mobile/css480x800/media-queries-25e67f62e1d6bbc26039cfeb74e7af0a.css" media="screen" rel="stylesheet" type="text/css" />
+  <script src="/assets/surveyor/popup_dialog-1dab3260e7e977a3f13f032cf04106ef.js" type="text/javascript"></script>
+  <script src="http://connect.facebook.net/en_US/all.js"></script>
+  <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+  <script type="text/javascript" src="http://platform.linkedin.com/in.js">
+      api_key: 759fp1hqnnrare
+      scope:r_basicprofile,r_emailaddress,r_network,r_fullprofile
+      onLoad: onLinkedInLoad
+      authorize: true
+      credentials_cookie: true
+  </script>
+  <script type="text/javascript">
+      var answer = "0,0,0,0,0,0,0,0,0";
+      var answer_for_tite = "0,0,0,0,0,0,0,0,0,0,0,0,0";
+      var user_score = parseInt("2");
+      photoUrl = "";
+      jQuery(document).on('ready', function(){
+          setAnswerFlagForResult(answer);
+          setAnswerFlagForResultForTite(answer_for_tite);
+
+          twttr.ready(function (twttr) {
+              twttr.events.bind('follow', function(event) {
+
+                  if(answers_flag.answer3 == 0){
+                      user_score = user_score +2;
+                      answers_flag.answer3 = 1;
+                      setAnswerFlag(answers_flag);
+                      updateUserPoints(2);
+                      $('#expriment_survey_result_answer3').val('Followed');
+                      updateResponse(this);
+                      $('#score2').removeClass("filter-fant-gray").addClass("filter-yellow");
+                  }
+                  else
+                  {
+                      $('#expriment_survey_result_answer3').val('Followed');
+                      updateResponse(this);
+                  }
+
+              });
+          });
+
+
+          $('.click_video').click(function(){
+              $('.play_youtube_video').hide();
+              $('#video_from_youtube').show();
+              $('#video_from_youtube_for_tite').show();
+              if($('#hipChickFarm').length || $('#FABRIPOD').length || $('#GROOMEDMAN').length)
+              {
+                  $('.like_video').hide();
+                  $('.dislike_video').hide();
+              }
+          });
+
+          if(('#FABRIPOD').length && !$('#hipChickFarm').length && !$('#EightBitlit').length && !(sessionStorage.user && sessionStorage.user.length > 0))
+          {
+              $('congrats-yellow').html(user_score);
+              if(answers_flag_for_tite.answer1 == 0)
+              {
+                  user_score = user_score + 2;
+                  answers_flag_for_tite.answer1 = 1;
+                  setAnswerFlagForTite(answers_flag_for_tite);
+                  updateResponse($('#FABRIPOD'));
+                  popUpShowForUserScorePoint();
+              }
+          }
+
+          if($('#GROOMEDMAN').length && !(sessionStorage.user && sessionStorage.user.length > 0))
+          {
+              $('congrats-yellow').html(user_score);
+              if(answers_flag_for_tite.answer1 == 0)
+              {
+                  user_score = user_score + 2;
+                  answers_flag_for_tite.answer1 = 1;
+                  setAnswerFlagForTite(answers_flag_for_tite);
+                  updateResponse($('#GROOMEDMAN'));
+                  popUpShowForUserScorePoint();
+              }
+
+          }
+
+          $('.filter-yellow1').html(user_score);
+          if (sessionStorage.user && sessionStorage.user.length > 0)
+          {
+              $('.username').find('img:first').css("visibility","visible");
+              if(('#FABRIPOD').length && !$('#EightBitlit').length)
+              {
+                  if($('#hipChickFarm').length)
+                  {
+                      surveyQuestionSwiper.removeSlide(11);
+                  }
+                  else
+                  {
+                      if(!$('#GROOMEDMAN').length && !$('.BE3DPRINTERS').length)
+                      {
+                        surveyQuestionSwiper.removeSlide(8);
+                      }
+                      if($('.BE3DPRINTERS').length)
+                      {
+                          surveyQuestionSwiper.removeSlide(12);
+                      }
+
+                  }
+              }
+              else
+              {
+                  if(!$('#hipChickFarm').length)
+                  {
+                      surveyQuestionSwiper.removeSlide(5);
+                  }
+
+              }
+
+              if($('#GROOMEDMAN').length)
+              {
+                  surveyQuestionSwiper.removeSlide(7);
+              }
+
+              changeCount = 1;
+              hiddenScreens = $('[id^="screen"]');
+              hiddenScreens.each(function(){
+                   var  newScreenName = "screen" + changeCount;
+                   $(this).attr("id", newScreenName);
+                   changeCount = changeCount + 1;
+              });
+              setPageForUser();
+              userName = getUserName(sessionStorage.user);
+              if(!($(".username:contains("+ userName +")").length))
+              {
+                  $('.username').find('img:first').after(userName);
+              }
+              $('.loginDone').hide();
+              $('.btnshadow').hide();
+          }
+          else
+          {
+              setPageForUser();
+          }
+
+          $('#twitter_login_for_8bitlit').click(function () {
+           $('#login_with_twitter').click();
+          });
+          $('.twitter_login_for_8bitlit').click(function () {
+              $('#login_with_twitter').click();
+          });
+      });
+  </script>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-47208632-4']);
+    _gaq.push(['_setDomainName', 'produk.me']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+
+  <script src="/assets/experiment_survey/video_reloading-a8477d85af2a4e5b7567766f6915d559.js" type="text/javascript"></script>
+</head>
+<body class="oStatic oIndex">
+<div class="container">
+      <a href="http://www.linkedin.com/shareArticle?title=I+just+gave+3+mins+of+product+feedback+on+my+favorite+beard+oil+product+from+the+“Groomed+Man+company.+I+love+their+scents&mini=true&submitted-image-url=http%3A%2F%2Fproduk.me%2Fassets%2Fhipchickfarm%2Funwrapping-6b9ceb578b2c057cd3738a44ca7ead86.jpg&url=http://www.thegroomedman.co.uk&source=http%3A%2F%2Fproduk.me%2Fgroomed_man%2Fonboarding"  class="share linkedin" style = 'display:none;' id = 'share_on_linked_in'>Share on LinkedIn</a>
+<a  href = "/auth/twitter"  class = "share twitter_login" style = 'display:none;' id = 'login_with_twitter'> </a>
+
+
+
+  <div class="mainbody">
+      <form accept-charset="UTF-8" action="/onboarding/54cb29376550c70df3000003" class="formtastic expriment_survey_result" data-remote="true" enctype="multipart/form-data" id="edit_expriment_survey_result_54cb29376550c70df3000003" method="post" novalidate="novalidate"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="_method" type="hidden" value="put" /><input name="authenticity_token" type="hidden" value="+sdY9SUqlkPGoJbyYE+4jaGm9AWzgEnlyrBvmtn475M=" /></div>
+<input id="expriment_survey_result_userId" name="expriment_survey_result[userId]" type="hidden" value="" />
+<input id="expriment_survey_result_survey_id" name="expriment_survey_result[survey_id]" type="hidden" value="54cb29376550c70df3000003" />
+<input id="expriment_survey_result_social_score_points" name="expriment_survey_result[social_score_points]" type="hidden" value="0" />
+<input id="expriment_survey_result_user_step" name="expriment_survey_result[user_step]" type="hidden" value="1" />
+<input id="expriment_survey_result_answer_flag" name="expriment_survey_result[answer_flag]" type="hidden" value="0,0,0,0,0,0,0,0" />
+<input id="expriment_survey_result_answer_flag_for_tite" name="expriment_survey_result[answer_flag_for_tite]" type="hidden" value="0,0,0,0,0,0,0,0,0,0,0,0,0" />
+<div id='GROOMEDMAN'></div>
+<div class='swiper-container-question'>
+<div class='swiper-wrapper'>
+<div class='swiper-slide'>
+<div id='screen1'>
+<div id='pagewrap'>
+<div class='welcome-image'>
+<img alt="Unwrapping" class="background" src="/assets/groomed_man/onboarding/unwrapping-733d83f156e3154eb62840250d9f2be6.jpg" />
+<div class='topspace'>
+<div class='button1'>
+<a class='questionNext openWrap'>open</a>
+</div>
+<div class='btnshadow'></div>
+<div class='filter-yellow margin-trophy' id='score_tite'>2</div>
+<div class='poweredimg'>
+<img alt="Poweredby" src="/assets/fabripod/onboarding/poweredby-9f426d5f3c15ead8eb0588ec8ce517ac.png" />
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class='swiper-slide'>
+<div id='screen2'>
+<div id='pagewrap'>
+<header class='header'>
+<div class='right'>
+<img alt="Logo" src="/assets/groomed_man/onboarding/logo-027e71fb5523186068597fc304b143a6.png" />
+</div>
+<div class='topmenu'>
+<ul>
+<li>
+<a href='javascript://'>
+<img alt="Facebook" class="share_facebook_for_groomed_man" src="/assets/groomed_man/onboarding/facebook.png" />
+</a>
+</li>
+<li>
+<a class='shareLinkFor8bitLink' href='https://twitter.com/intent/tweet' id='shareLink'>
+<img alt="Twitter" id="twitter_share" src="/assets/groomed_man/onboarding/twitter.png" />
+</a>
+</li>
+<li>
+<a href='javascript://'>
+<img alt="Linkedin" class="linked_in_share" src="/assets/groomed_man/onboarding/linkedin.png" />
+</a>
+</li>
+</ul>
+</div>
+<div class='pointsmeter1 pointsmeter-amount'>
+2/14
+</div>
+<div class='username'>
+<img align="absmiddle" alt="User-head-icon" src="/assets/groomed_man/onboarding/user-head-icon.png" style="visibility: hidden;" />
+
+</div>
+</header>
+<div class='row bottom-shadow'></div>
+
+<!-- Start Content -->
+<div id='content'>
+<div class='header2'>
+<hgroup class='hgroup'>
+<div class='colA'>last</div>
+<div class='colB'>
+<h1>WELCOME</h1>
+</div>
+<div class='colC'>next</div>
+<div class='clear'></div>
+</hgroup>
+<div class='filter-yellow' id='score_tite_1'>2</div>
+<div class='watch2'></div>
+</div>
+<div class='whitebg' style='padding-bottom:5px;'>
+<div class='survey'>
+<div class='welcome-text-box'>
+<p style='text-align:left; margin-bottom:0.5em; font-size:13px;line-height:19px;'>Hey Good Looking,</p>
+<p style='text-align:left; margin-bottom:0.5em;font-size:13px;line-height:19px;'>
+If you've made it this far, that means a dingo didn't steal your oil, a kangaroo didn't hop away with it and a koala didn't eat it (we
+didn't include eucalyptus, koalas love that stuff). Thank you for your support. Please take
+a minute to answer some quick fun  exciting questions, which will improve TheGroomed-
+ManCo experience. You'll even go into the draw to win a 3 month supply of beard oil.
+</p>
+<p style='text-align:left; margin-bottom:0.5em;font-size:13px;line-height:19px;'>
+Cheers Mate!
+<br>
+Daniel
+</p>
+</div>
+</div>
+</div>
+<div class='bottom-shadow'></div>
+<input id="expriment_survey_result_video_like" name="expriment_survey_result[video_like]" type="hidden" value="" />
+</div>
+<!-- End Content -->
+</div>
+</div>
+
+</div>
+<div class='swiper-slide'>
+<div id='screen3'>
+<div id='pagewrap'>
+<header class='header'>
+<div class='right'>
+<img alt="Logo" src="/assets/groomed_man/onboarding/logo-027e71fb5523186068597fc304b143a6.png" />
+</div>
+<div class='topmenu'>
+<ul>
+<li>
+<a href='javascript://'>
+<img alt="Facebook" class="share_facebook_for_groomed_man" src="/assets/groomed_man/onboarding/facebook.png" />
+</a>
+</li>
+<li>
+<a class='shareLinkFor8bitLink' href='https://twitter.com/intent/tweet' id='shareLink'>
+<img alt="Twitter" id="twitter_share" src="/assets/groomed_man/onboarding/twitter.png" />
+</a>
+</li>
+<li>
+<a href='javascript://'>
+<img alt="Linkedin" class="linked_in_share" src="/assets/groomed_man/onboarding/linkedin.png" />
+</a>
+</li>
+</ul>
+</div>
+<div class='pointsmeter2 pointsmeter-amount'>
+4/14
+</div>
+<div class='username'>
+<img align="absmiddle" alt="User-head-icon" src="/assets/groomed_man/onboarding/user-head-icon.png" style="visibility: hidden;" />
+
+</div>
+</header>
+<div class='row bottom-shadow'></div>
+
+<div id='content'>
+<div class='header2'>
+<hgroup class='hgroup'>
+<div class='colA'>last</div>
+<div class='colB'>
+<h1>SURVEY</h1>
+</div>
+<div class='colC'>next</div>
+<div class='clear'></div>
+</hgroup>
+<div class='filter-fant-gray' id='score5'>2</div>
+</div>
+<div class='video'>
+<div class='whitebg survey-bg' style='padding-bottom:33px;'>
+<div class='setup'>Did you love the scent?</div>
+<div class='setup select-text' style='font-size:12px;'>Pick your one favorite scent.</div>
+<div class='servery1-image-center'>
+<div class='select-checkbox_left'>
+<div class='man-mint'>
+<span>Man mint</span>
+<input class='checkbox1' id='manMint' type='checkbox'>
+<span class='select-text'>select</span>
+</div>
+<div class='morning-wood'>
+<span>Morning wood</span>
+<input class='checkbox1' id='MorningWood' type='checkbox'>
+<span class='select-text'>select</span>
+</div>
+</div>
+<div class='serveryqustion1_image'>
+<img alt="Survey-question-1" src="/assets/groomed_man/onboarding/survey-question-1-328254d444e8cb69e644753a22a3d47d.jpg" />
+</div>
+<div class='select-checkbox_right'>
+<div class='man-mint'>
+<span>Cloves off</span>
+<input class='checkbox1' id='ClovesOff' type='checkbox'>
+<span class='select-text'>select</span>
+</div>
+<div class='morning-wood'>
+<span>Mangrove citrus</span>
+<input class='checkbox1' id='MangroveCitrus' type='checkbox'>
+<span class='select-text'>select</span>
+</div>
+</div>
+<div class='clear'></div>
+</div>
+<div class='clear'></div>
+<div class='slide_parts'>
+<div class='easy' id='q1ThumbUp' style='margin-right:13%;'>
+yes
+</div>
+<div class='pagination' id='sliderCell1'>
+<select id="expriment_survey_result_answer1" name="expriment_survey_result[answer1]"><option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option></select>
+</div>
+<div class='hard' id='q1ThumbDown'>
+no
+</div>
+<div class='clear'></div>
+</div>
+</div>
+<div class='bottom-shadow'></div>
+<input id="expriment_survey_result_question1" name="expriment_survey_result[question1]" type="hidden" value="Did you love the scent?" />
+<input id="expriment_survey_result_answer1_comment" name="expriment_survey_result[answer1_comment]" type="hidden" value="" />
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class='swiper-slide'>
+<div id='screen4'>
+<div id='pagewrap'>
+<header class='header'>
+<div class='right'>
+<img alt="Logo" src="/assets/groomed_man/onboarding/logo-027e71fb5523186068597fc304b143a6.png" />
+</div>
+<div class='topmenu'>
+<ul>
+<li>
+<a href='javascript://'>
+<img alt="Facebook" class="share_facebook_for_groomed_man" src="/assets/groomed_man/onboarding/facebook.png" />
+</a>
+</li>
+<li>
+<a class='shareLinkFor8bitLink' href='https://twitter.com/intent/tweet' id='shareLink'>
+<img alt="Twitter" id="twitter_share" src="/assets/groomed_man/onboarding/twitter.png" />
+</a>
+</li>
+<li>
+<a href='javascript://'>
+<img alt="Linkedin" class="linked_in_share" src="/assets/groomed_man/onboarding/linkedin.png" />
+</a>
+</li>
+</ul>
+</div>
+<div class='pointsmeter3 pointsmeter-amount'>
+6/14
+</div>
+<div class='username'>
+<img align="absmiddle" alt="User-head-icon" src="/assets/groomed_man/onboarding/user-head-icon.png" style="visibility: hidden;" />
+
+</div>
+</header>
+<div class='row bottom-shadow'></div>
+
+<!-- Start Content -->
+<div id='content'>
+<div class='header2'>
+<hgroup class='hgroup'>
+<div class='colA'>last</div>
+<div class='colB'>
+<h1>SURVEY</h1>
+</div>
+<div class='colC'>next</div>
+<div class='clear'></div>
+</hgroup>
+<div class='filter-fant-gray' id='score4'>2</div>
+</div>
+<div class='video'>
+<div class='whitebg' style='padding-bottom:5px;'>
+<div class='setup'>
+Do you like this oil and why?
+</div>
+<div class='problems'>
+<div class='survey4'>
+<img alt="Survey-question-2a" src="/assets/groomed_man/onboarding/survey-question-2a-9a5c0dbfb27431419f34757f84619473.jpg" style="margin-left:20px;" />
+<div class='parts2 fr'>
+<a class='positive_respose_class' href='javascript://' id='positive_respose2'>
+<div class='up-hand1' id='postive_respose_img2'></div>
+</a>
+<a class='negative_respose_class' href='javascript://' id='negative_respose2'>
+<div class='down-hand1' id='negative_respose_img2'></div>
+</a>
+</div>
+</div>
+</div>
+<div class='clear'></div>
+<div class='parts'>
+<textarea class="thankyou-comment1" cols="40" id="expriment_survey_result_answer5_comment" name="expriment_survey_result[answer5_comment]" rows="20" style="text-align:left;height:65px;">
+</textarea>
+</div>
+<div class='clear'></div>
+</div>
+<div class='bottom-shadow'></div>
+<input id="expriment_survey_result_question5" name="expriment_survey_result[question5]" type="hidden" value="Do you like this oil and why?" />
+<input id="expriment_survey_result_answer5" name="expriment_survey_result[answer5]" type="hidden" value=" " />
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class='swiper-slide'>
+<div id='screen5'>
+<div id='pagewrap'>
+<header class='header'>
+<div class='right'>
+<img alt="Logo" src="/assets/groomed_man/onboarding/logo-027e71fb5523186068597fc304b143a6.png" />
+</div>
+<div class='topmenu'>
+<ul>
+<li>
+<a href='javascript://'>
+<img alt="Facebook" class="share_facebook_for_groomed_man" src="/assets/groomed_man/onboarding/facebook.png" />
+</a>
+</li>
+<li>
+<a class='shareLinkFor8bitLink' href='https://twitter.com/intent/tweet' id='shareLink'>
+<img alt="Twitter" id="twitter_share" src="/assets/groomed_man/onboarding/twitter.png" />
+</a>
+</li>
+<li>
+<a href='javascript://'>
+<img alt="Linkedin" class="linked_in_share" src="/assets/groomed_man/onboarding/linkedin.png" />
+</a>
+</li>
+</ul>
+</div>
+<div class='pointsmeter4 pointsmeter-amount'>
+8/14
+</div>
+<div class='username'>
+<img align="absmiddle" alt="User-head-icon" src="/assets/groomed_man/onboarding/user-head-icon.png" style="visibility: hidden;" />
+
+</div>
+</header>
+<div class='row bottom-shadow'></div>
+
+<div id='content'>
+<div class='header2'>
+<hgroup class='hgroup'>
+<div class='colA'>last</div>
+<div class='colB'>
+<h1>SURVEY</h1>
+</div>
+<div class='colC'>next</div>
+<div class='clear'></div>
+</hgroup>
+<div class='filter-fant-gray' id='score9'>2</div>
+</div>
+<div class='video'>
+<div class='whitebg survey-bg'>
+<div class='setup'>
+How many days do you expect
+<br>
+a single bottle to last?
+</div>
+<div class='survey'>
+<div class='survey-question6a'>
+<img alt="Survey-question-3" src="/assets/groomed_man/onboarding/survey-question-3-866e9d523f12f9b8f8c460831bc4fc8a.jpg" />
+<div class='amount'>
+<input class="input-amount" id="expriment_survey_result_answer7" maxlength="3" name="expriment_survey_result[answer7]" placeholder="" size="3" type="text" value="1" />
+<div class='icon-refresh'>
+<img alt="Icon-refresh" src="/assets/groomed_man/onboarding/icon-refresh-6dd1a199cca3750bc1d771c65a456ce2.png" />
+</div>
+<div class='icon-minus' id='decreaseButton'>
+<a href='javascript://'>
+<img alt="Minus" src="/assets/groomed_man/onboarding/minus-1e6817fcbb62043a9112bbdb35516bc5.gif" />
+</a>
+</div>
+<div class='icon-plus' id='increaseButton'>
+<a href='javascript://'>
+<img alt="Plus" src="/assets/groomed_man/onboarding/plus-27208b724453dfb34036acbd6bcbc67c.gif" />
+</a>
+</div>
+</div>
+</div>
+<div class='clear'></div>
+</div>
+</div>
+<div class='bottom-shadow'></div>
+<input id="expriment_survey_result_question7" name="expriment_survey_result[question7]" type="hidden" value="How many days do you expect a single bottle to last?" />
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class='swiper-slide'>
+<div id='screen6'>
+<div id='pagewrap'>
+<header class='header'>
+<div class='right'>
+<img alt="Logo" src="/assets/groomed_man/onboarding/logo-027e71fb5523186068597fc304b143a6.png" />
+</div>
+<div class='topmenu'>
+<ul>
+<li>
+<a href='javascript://'>
+<img alt="Facebook" class="share_facebook_for_groomed_man" src="/assets/groomed_man/onboarding/facebook.png" />
+</a>
+</li>
+<li>
+<a class='shareLinkFor8bitLink' href='https://twitter.com/intent/tweet' id='shareLink'>
+<img alt="Twitter" id="twitter_share" src="/assets/groomed_man/onboarding/twitter.png" />
+</a>
+</li>
+<li>
+<a href='javascript://'>
+<img alt="Linkedin" class="linked_in_share" src="/assets/groomed_man/onboarding/linkedin.png" />
+</a>
+</li>
+</ul>
+</div>
+<div class='pointsmeter5 pointsmeter-amount'>
+10/14
+</div>
+<div class='username'>
+<img align="absmiddle" alt="User-head-icon" src="/assets/groomed_man/onboarding/user-head-icon.png" style="visibility: hidden;" />
+
+</div>
+</header>
+<div class='row bottom-shadow'></div>
+
+<!-- Start Content -->
+</div>
+<div id='content'>
+<div class='header2'>
+<hgroup class='hgroup'>
+<div class='colA'>last</div>
+<div class='colB'>
+<h1>SURVEY</h1>
+</div>
+<div class='colC'>next</div>
+<div class='clear'></div>
+</hgroup>
+<div class='filter-fant-gray' id='score3'>2</div>
+</div>
+<div class='video'>
+<div class='whitebg' style='padding-bottom:5px;'>
+<div class='setup'>
+How likely will you recommend
+<br>
+this product to friends and family?
+</div>
+<div class='survey'>
+<div class='survey-question4'>
+<img alt="Survey-question-4" src="/assets/groomed_man/onboarding/survey-question-4-27c55b98a1cc4687f425a403ef6b1d3f.jpg" />
+<div class='survey-question4_fb'>
+<a href='javascript://'>
+<img alt="Facebook" class="share_facebook_for_groomed_man" src="/assets/tite/facebook-c97f2228431e7208138d0e96bcfed7b8.png" />
+</a>
+</div>
+<div class='survey-question4_twitter'>
+<a class='shareLinkFor8bitLink' href='https://twitter.com/intent/tweet' id='shareLink'>
+<img alt="Twitter" id="twitter_share" src="/assets/tite/twitter-0020193f1277c813095c4f9bd53ea785.png" />
+</a>
+</div>
+<div class='survey-question4_instagram'>
+<a href='javascript://'>
+<img alt="Linkedin" class="linked_in_share" src="/assets/groomed_man/onboarding/linkedin.png" />
+</a>
+</div>
+</div>
+</div>
+<div class='slide_parts'>
+<div class='up-hand-likely' id='q3ThumbUp'></div>
+<div class='pagination' id='sliderCell3'>
+<select id="expriment_survey_result_answer4" name="expriment_survey_result[answer4]"><option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option></select>
+</div>
+<div class='down-hand-unlikely' id='q3ThumbDown'></div>
+<div class='clear'></div>
+</div>
+</div>
+<div class='bottom-shadow'>
+<input id="expriment_survey_result_question4" name="expriment_survey_result[question4]" type="hidden" value="How likely will you recommend this product to friends and family?" />
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class='swiper-slide'>
+<div id='screen7'>
+<div id='pagewrap'>
+<header class='header'>
+<div class='right'>
+<img alt="Logo" src="/assets/groomed_man/onboarding/logo-027e71fb5523186068597fc304b143a6.png" />
+</div>
+<div class='topmenu'>
+<ul>
+<li>
+<a href='javascript://'>
+<img alt="Facebook" class="share_facebook_for_groomed_man" src="/assets/groomed_man/onboarding/facebook.png" />
+</a>
+</li>
+<li>
+<a class='shareLinkFor8bitLink' href='https://twitter.com/intent/tweet' id='shareLink'>
+<img alt="Twitter" id="twitter_share" src="/assets/groomed_man/onboarding/twitter.png" />
+</a>
+</li>
+<li>
+<a href='javascript://'>
+<img alt="Linkedin" class="linked_in_share" src="/assets/groomed_man/onboarding/linkedin.png" />
+</a>
+</li>
+</ul>
+</div>
+<div class='pointsmeter6 pointsmeter-amount'>
+12/14
+</div>
+<div class='username'>
+<img align="absmiddle" alt="User-head-icon" src="/assets/groomed_man/onboarding/user-head-icon.png" style="visibility: hidden;" />
+
+</div>
+</header>
+<div class='row bottom-shadow'></div>
+
+<div id='content'>
+<div class='header2'>
+<hgroup class='hgroup'>
+<div class='colA'>last</div>
+<div class='colB'>
+<h1>SURVEY</h1>
+</div>
+<div class='colC'>next</div>
+<div class='clear'></div>
+</hgroup>
+<div class='filter-fant-gray' id='score6'>2</div>
+</div>
+<div class='video'>
+<div class='whitebg survey-bg' style='padding-bottom:25px;'>
+<div class='setup'>
+Did you like the packaging
+<br>
+for our product?
+</div>
+<div class='parts_survey5'>
+<div class='survey5-img'>
+<img alt="Survey-question-5" class="img2" src="/assets/groomed_man/onboarding/survey-question-5-e98be0fa332ce4a4b7f61cf60d128d82.jpg" />
+</div>
+<div class='pagination_survey5'>
+<div class='Paginator'>
+<a href='javascript://'>1</a>
+<a href='javascript://'>2</a>
+<span class='this-page'>3</span>
+<a href='javascript://'>4</a>
+<a href='javascript://'>5</a>
+</div>
+</div>
+<div class='survey5-thumb'>
+<div class='easy' id='likeSlider'>like</div>
+<div class='hard' id='unlikeSlider'>unlike</div>
+</div>
+<div class='clear'></div>
+</div>
+<div class='clear'></div>
+<div class='parts'>
+<textarea class="comment2" cols="40" id="expriment_survey_result_answer2_comment" name="expriment_survey_result[answer2_comment]" rows="20" style="text-align:left;height:65px;">
+</textarea>
+</div>
+</div>
+<div class='bottom-shadow'>
+<input id="expriment_survey_result_question2" name="expriment_survey_result[question2]" type="hidden" value="Did you like the packaging for our product?" />
+<input id="expriment_survey_result_answer2" name="expriment_survey_result[answer2]" type="hidden" value="" />
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class='swiper-slide'>
+<div id='screen8'>
+<div id='pagewrap'>
+<header class='header'>
+<div class='right'>
+<img alt="Logo" src="/assets/groomed_man/onboarding/logo-027e71fb5523186068597fc304b143a6.png" />
+</div>
+<div class='topmenu'>
+<ul>
+<li>
+<a href='javascript://'>
+<img alt="Facebook" class="share_facebook_for_groomed_man" src="/assets/groomed_man/onboarding/facebook.png" />
+</a>
+</li>
+<li>
+<a class='shareLinkFor8bitLink' href='https://twitter.com/intent/tweet' id='shareLink'>
+<img alt="Twitter" id="twitter_share" src="/assets/groomed_man/onboarding/twitter.png" />
+</a>
+</li>
+<li>
+<a href='javascript://'>
+<img alt="Linkedin" class="linked_in_share" src="/assets/groomed_man/onboarding/linkedin.png" />
+</a>
+</li>
+</ul>
+</div>
+<div class='pointsmeter7 pointsmeter-amount'>
+14/14
+</div>
+<div class='username'>
+<img align="absmiddle" alt="User-head-icon" src="/assets/groomed_man/onboarding/user-head-icon.png" style="visibility: hidden;" />
+
+</div>
+</header>
+<div class='row bottom-shadow'></div>
+
+<div id='content'>
+<div class='header2 login_header'>
+<hgroup class='hgroup'>
+<div class='colA' id='loginPrevious'>last</div>
+<div class='colB'>
+<h1>ENTER TO WIN</h1>
+</div>
+<div class='colC nextScreen loginNext'>next</div>
+<div class='clear'></div>
+</hgroup>
+</div>
+<div class='clear'></div>
+<div class='whitebg' style='padding-bottom:25px;'>
+<p class='register-using' style='line-height:26px;font-size:16px;'>register using:</p>
+<div class='viewer_sociallink'>
+<a href='javascript://' style='color:#FFFFFF;'>
+<img alt="Facebook" class="login_facebook_for_8bitlit" src="/assets/mobile/facebook-c97f2228431e7208138d0e96bcfed7b8.png" />
+</a>
+</div>
+<div class='smalltext logintext' style='line-height:13px;font-size:11px; font-weight:bold;'>
+Your login will be used for prize registration
+<br>
+only. We will not market to you.
+</div>
+<div class='orenter'>
+<p>
+<img alt="Question-mark" src="/assets/mobile/question-mark-c9de06d1324a483024b0742e98df00c9.png" style="margin-bottom:-5px;" />
+<span style='line-height:13px; font-size:13px;'>or enter your information below</span>
+</p>
+</div>
+<div class='viewer-input-wrapper' style='margin-bottom:5px;'>
+<div class='input_wrapper'>
+<input class="first_name" id="expriment_survey_result_user_name" name="expriment_survey_result[user_name]" placeholder="first name" size="30" type="text" value="" />
+</div>
+<div class='input_wrapper'>
+<input class="last_name" id="expriment_survey_result_last_name" name="expriment_survey_result[last_name]" placeholder="last name" size="30" type="text" value="" />
+</div>
+<div class='input_wrapper'>
+<input id="expriment_survey_result_email" name="expriment_survey_result[email]" placeholder="email address" size="30" type="text" value="" />
+</div>
+<div class='input_wrapper error' style='display:none; color:red;'></div>
+</div>
+<div class='button1'>
+<a class='loginWith8bitLit'>enter to win</a>
+</div>
+<div class='btnshadow'></div>
+<div class='terms-condition'>terms and conditions</div>
+</div>
+<div class='bottom-shadow'></div>
+</div>
+<div class='clear'></div>
+<!-- End Content -->
+</div>
+</div>
+
+</div>
+<div class='swiper-slide'>
+<div id='screen9'>
+<div id='pagewrap'>
+<header class='header'>
+<div class='right'>
+<img alt="Logo" src="/assets/groomed_man/onboarding/logo-027e71fb5523186068597fc304b143a6.png" />
+</div>
+<div class='topmenu'>
+<ul>
+<li>
+<a href='javascript://'>
+<img alt="Facebook" class="share_facebook_for_groomed_man" src="/assets/groomed_man/onboarding/facebook.png" />
+</a>
+</li>
+<li>
+<a class='shareLinkFor8bitLink' href='https://twitter.com/intent/tweet' id='shareLink'>
+<img alt="Twitter" id="twitter_share" src="/assets/groomed_man/onboarding/twitter.png" />
+</a>
+</li>
+<li>
+<a href='javascript://'>
+<img alt="Linkedin" class="linked_in_share" src="/assets/groomed_man/onboarding/linkedin.png" />
+</a>
+</li>
+</ul>
+</div>
+<div class='pointsmeter7 pointsmeter-amount'>
+14/14
+</div>
+<div class='username'>
+<img align="absmiddle" alt="User-head-icon" src="/assets/groomed_man/onboarding/user-head-icon.png" style="visibility: hidden;" />
+
+</div>
+</header>
+<div class='row bottom-shadow'></div>
+
+<div id='content'>
+<hgroup class='hgroup'>
+<div class='colA'>last</div>
+<div class='colB'>
+<h1>CONGRATS</h1>
+</div>
+<div class='colC'>next</div>
+<div class='clear'></div>
+</hgroup>
+<div class='congrats-yellow'></div>
+<div class='whitebg whitebg2' style='min-height:130px; padding-bottom:5px;'>
+<div class='survey'>
+<div class='welcome-text-box' style='padding-bottom:5px;'>
+<p>Thank you for taking the time to give us feedback that will assist with product development. We promise to offer more of your favorite products soon. You have been entered into a raffle for a 3 month supply of Beard oil.</p>
+</div>
+</div>
+</div>
+<div class='bottom-shadow'></div>
+</div>
+</div>
+</div>
+
+</div>
+<div class='swiper-slide'>
+<div id='screen10'>
+<div id='pagewrap'>
+<header class='header'>
+<div class='right'>
+<img alt="Logo" src="/assets/groomed_man/onboarding/logo-027e71fb5523186068597fc304b143a6.png" />
+</div>
+<div class='topmenu'>
+<ul>
+<li>
+<a href='javascript://'>
+<img alt="Facebook" class="share_facebook_for_groomed_man" src="/assets/groomed_man/onboarding/facebook.png" />
+</a>
+</li>
+<li>
+<a class='shareLinkFor8bitLink' href='https://twitter.com/intent/tweet' id='shareLink'>
+<img alt="Twitter" id="twitter_share" src="/assets/groomed_man/onboarding/twitter.png" />
+</a>
+</li>
+<li>
+<a href='javascript://'>
+<img alt="Linkedin" class="linked_in_share" src="/assets/groomed_man/onboarding/linkedin.png" />
+</a>
+</li>
+</ul>
+</div>
+<div class='pointsmeter7 pointsmeter-amount'>
+14/14
+</div>
+<div class='username'>
+<img align="absmiddle" alt="User-head-icon" src="/assets/groomed_man/onboarding/user-head-icon.png" style="visibility: hidden;" />
+
+</div>
+</header>
+<div class='row bottom-shadow'></div>
+
+<div id='content'>
+<div class='header2'>
+<hgroup class='hgroup'>
+<div class='colA loginPreviousTite'>last</div>
+<div class='colB'>
+<h1>THANK YOU</h1>
+</div>
+<div class='colC' style='display:none;'>next</div>
+<div class='clear'></div>
+</hgroup>
+</div>
+<div class='whitebg whitebg2'>
+<div class='setup'>
+Please use the form below for anything
+<br>
+else you would like to tell us. What other
+<br>
+questions should we ask you in our survey?
+<div class='parts'>
+<textarea class="comment2" cols="40" id="expriment_survey_result_comment" name="expriment_survey_result[comment]" rows="20" style="height:130px;">
+</textarea>
+</div>
+<div class='fplink'>
+<div class='fplinkL'>
+<a href='http://facebook.com/thegroomedmanco' id='manual_pdf'>
+<img alt="Facebook" src="/assets/hipchickfarm/facebook-c97f2228431e7208138d0e96bcfed7b8.png" />
+</a>
+</div>
+<div class='fplinkR'>
+click to visit our facebook page!
+</div>
+<div class='clear'></div>
+</div>
+</div>
+</div>
+<div class='bottom-shadow'></div>
+<div class='poweredimg'>
+<img alt="Powered-image" src="/assets/fabripod/onboarding/powered-image-60ea2eaac55335fdf5b591aa8d3a5285.png" />
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class='pagination1'></div>
+<input id="share_msg" name="share_msg" type="hidden" value="I just gave 3 mins of product feedback on my favorite beard oil product from the “Groomed Man company. I love their scents" />
+
+<div id="popup" style="left: 390px; position: absolute; top: 242px; z-index: 9999; opacity: 1; display: block;">
+  <span class="button b-close"><span>X</span></span>
+  <h3 style = 'text-align:center;'>Sorry May be You are Not Logged In Or You Don't want to Share It</h3>
+</div>
+<div id="popup2" style="left: 200px; position: absolute; top: 242px; z-index: 9999; opacity: 1; display: none;">
+  <span class="button b-close"><span>X</span></span>
+  <div class="content"><p class = 'experiment_survey' style="line-height: 2;">Thank You For Sharing Survey</p> </div>
+</div>
+
+<div id="popup3" style="left: 200px; position: absolute; top: 242px; z-index: 9999; opacity: 1; display: block;">
+  <span class="button b-close"><span>X</span></span>
+  <div class="content"></div>
+</div>
+
+<div id="popup4" style="left: 390px; position: absolute; top: 242px; font-size: 16px; z-index: 9999; opacity: 1;display: none;">
+  <span class="button b-close"><span>X</span></span>
+<div id = 'for_scroll'>
+  <p class = 'experiment_survey' style="line-height: 2;">Produk.me would like to receive the following information : First Name,
+    Last Name and Email address</p>
+  <p class = 'experiment_survey' style="line-height: 2;">so your name can be entered into the $200 giftcard raffle.</p>
+  <br/>
+  <p class = 'experiment_survey' style="line-height: 2;"> This information will only be used for raffle purposes according to terms and
+    conditions.</p>
+  <br/>
+  <p class = 'experiment_survey' style="line-height: 2;">Would you consent to the same? You will also get to see the results of the survey
+    so far when you do so
+    .</p>
+  <br/>
+  </div>
+  <center><span class="button" id="user_accepts">Yes</span>
+    <span class="button" id="user_rejects">No</span></center>
+</div>
+
+<div id="popup5" style="left: 200px; position: absolute; top: 242px; z-index: 9999; opacity: 1; display: none;">
+  <span class="button b-close"><span>X</span></span>
+  <div class="content"><p class = 'experiment_survey' style="line-height: 2;">Please upload the file with an extention .jpg, .jpeg, .png, .gif, or .tif</p> </div>
+</div>
+
+<div id="popup6" style="left: 200px; position: absolute; top: 242px; z-index: 9999; opacity: 1; display: none;">
+  <span class="button b-close"><span>X</span></span>
+  <div class="content"><p class = 'experiment_survey' style="line-height: 2;">Uploading a picture of your lamp will enable you to enter the raffle for another free lamp.</p> </div>
+</div>
+
+<div id="popup7" style="left: 200px; position: absolute; top: 242px; z-index: 9999; opacity: 1; display: none;">
+  <span class="button b-close"><span>X</span></span>
+  <div class="content"><p class = 'experiment_survey' style="line-height: 2;">Please specify actual time</p> </div>
+</div>
+
+
+<div id="imagePopup" style="left: 200px; position: absolute; top: 30px; z-index: 9999; opacity: 1; width:100px;display:none;">
+  <span class="button b-close"><span>X</span></span>
+  <div id = 'imagePopupContent' class="content"></div>
+</div>
+
+<div id="popup8" style="left: 200px; position: absolute; top: 242px; z-index: 9999; opacity: 1; display: none;">
+  <span class="button b-close"><span>X</span></span>
+  <div id = 'for_scroll1' style="min-height: 290px;overflow-x: hidden!important;overflow-y: hidden!important;">
+    <p class = 'experiment_survey' style="line-height: 1; font-size: 12px;">WHAT DO WE DO WITH YOUR PICTURES </p>
+    <p class = 'experiment_survey' style="line-height: 1; font-size: 12px;">
+      We like to post our customer pics to our social media walls on Facebook, Instagram,
+      Twitter or similar. We do this for pic that have been approved by our
+      marketing team and where content is relevant to our brand. We do not share
+      pic with third parties. We also use pics for information purpose only such as
+      to gauge consumer satisfaction and gain new ideas for products and services. By
+      uploading your pics, you give us the right to post the picture to our social media
+      wall or message via social media.
+    </p>
+  </div>
+</div>
+
+<div id="popup9" style="left: 200px; position: absolute; top: 242px; z-index: 9999; opacity: 1; display: none;">
+  <span class="button b-close"><span>X</span></span>
+  <div class="content"><p id = "coupon" class = 'experiment_survey' style="line-height: 2;"></p> </div>
+</div>
+
+<div id="popup10" style = 'display: none;'>
+  <div class="warning warning-border">
+    <div class="inside-border">
+      <hgroup class="hgroup">
+        <div id = 'goBack' class="colA">go back</div>
+        <div class="colB"><h1>WARNING</h1></div>
+        <div id= 'skipToThankYou' class="colC">skip</div>
+        <div class="clear"></div>
+      </hgroup>
+      <div class="exclamation-mark"></div>
+      <div class="warnning-text">You must respond to at least 5 survey questions to claim your reward</div>
+    </div>
+  </div>
+</div>
+
+<div id="popup11" style="left: 200px; position: absolute; top: 242px; z-index: 9999; opacity: 1; display: none;">
+  <span class="button b-close"><span>X</span></span>
+  <div class="content"><p class = 'experiment_survey' style="line-height: 2;">Your photo is uploaded successfully.</p> </div>
+</div>
+
+<div id="popup12" style = 'display: none;'>
+  <div class="warning warning-border">
+    <div class="inside-border">
+      <hgroup class="hgroup">
+        <div id = 'goBack1' class="colA1">go back</div>
+        <div class="colB"><h1>WARNING</h1></div>
+        <div id= 'skipToThankYou1' class="colC1">skip</div>
+        <div class="clear"></div>
+      </hgroup>
+      <div class="exclamation-mark"></div>
+      <div class="warnning-text">Please select your scent.</div>
+    </div>
+  </div>
+</div>
+
+<div id="popup13" style = 'display: none;'>
+  <div class="warning warning-border">
+    <div class="inside-border">
+      <hgroup class="hgroup">
+        <div id = 'goBack2' class="colA1">go back</div>
+        <div class="colB"><h1>WARNING</h1></div>
+        <div id= 'skipToThankYou2' class="colC1">skip</div>
+        <div class="clear"></div>
+      </hgroup>
+      <div class="exclamation-mark"></div>
+      <div class="warnning-text">Please answer at least 3
+
+        survey questions to enter
+
+        the raffle for the 3 month
+
+        supply of the Beard oil.</div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="be3dprinterspopup1" style = 'display: none;'>
+  <div class="border1">We like to post our customer pics to our social media walls on Facebook, Instagram, twitter or similar. We do this for pics that have been approved by our marketing team and where the content is relevant to our brand. We do not share pics with third parties. We also use pics for informational purposes only such as to gauge consumer satisfaction and gain new ideas for products and services. By uploading your pic, you give us the right to post the picture to our social media wall or page.
+  </div>
+</div>
+
+<div id="vid_popup" style = 'display: none;'>
+  <div class="border1" style="height:122px;">We listen and use the videos to improve our products and services. We do not share the videos or any of your information with any third parties. We reserve the right to post the videos to our facebook page, share on our social media pages or our website in the context of the products and services we sell.
+  </div>
+</div>
+
+<div id="be3dprinterspopup2" style = 'display: none;'>
+  <div class="border1">
+    <img src="/assets/be3dprinters/onboarding/picture-popup.jpg">
+    <div class="poptext">Please send your picture of your first printout to earn your free real of filament on your next purchase.</div>
+  </div>
+</div>
+
+
+<div id="be3dprinterspopup4" style = 'display: none;'>
+  <div class="warning warning-border">
+    <div class="inside-border">
+      <hgroup class="hgroup">
+        <div id = 'goBack2' class="colA1">go back</div>
+        <div class="colB"><h1>WARNING</h1></div>
+        <div id= 'skipToThankYou2' class="colC1">skip</div>
+        <div class="clear"></div>
+      </hgroup>
+      <div class="exclamation-mark"></div>
+      <div class="warnning-text">Are you sure that you want
+
+        to skip email registration
+
+        for software download?</div>
+    </div>
+  </div>
+</div>
+
+<div id="be3dprinterspopup5" style = 'display: none;'>
+  <div class="warning warning-border">
+    <div class="inside-border">
+      <hgroup class="hgroup">
+        <div id = 'goBack3' class="colA1">go back</div>
+        <div class="colB"><h1>WARNING</h1></div>
+        <div id= 'skipToThankYou3' class="colC1">skip</div>
+        <div class="clear"></div>
+      </hgroup>
+      <div class="exclamation-mark"></div>
+      <div class="warnning-text">Are you sure that you want
+
+        to skip email registration
+
+        for software download?</div>
+    </div>
+  </div>
+</div>
+
+<div id="be3dprinterspopup3" style = 'display: none;'>
+  <div class="border3">
+    <div class="popthead-new">register using:</div>
+    <div class="text-center"><img src="/assets/be3dprinters/onboarding/facebook2-97e0f37b3834311ab409714046eb76a9.png" id= 'loginFacebookForBe3dPrinter'/> </div>
+    <div class="pop-text">Your login will be used for prize registration <br/> only. We will not market to you.</div>
+    <div class="pop-head-textfield"><img src="/assets/mobile/question-mark-c9de06d1324a483024b0742e98df00c9.png" /> or enter your information below</div>
+    <div class="viewer-input-wrapper">
+      <div class="input-popup">
+        <input id="expriment_survey_result_user_name" name="expriment_survey_result[user_name]" placeholder="first name" size="30" type="text" value="" />
+      </div>
+      <div class="input-popup">
+        <input id="expriment_survey_result_last_name" name="expriment_survey_result[last_name]" placeholder="last name" size="30" type="text" value="" />
+      </div>
+      <div class="input-popup">
+        <input class="emailAddress" id="expriment_survey_result_email" name="expriment_survey_result[email]" placeholder="email address" size="30" type="text" value="" />
+        <input id="expriment_survey_result_software_download" name="expriment_survey_result[software_download]" type="hidden" value="" />
+        <div class="input-popup error1">
+        </div>
+    </div>
+    <div class="button1"><a href="javascript://" id = 'submitInfo'>submit</a></div>
+    <div class="btnshadow"></div>
+    <div class="terms-condition">terms and conditions</div>
+  </div>
+</div>
+</div>
+
+<div id="be3dprinterspopup6" style = 'display: none;'>
+  <div class="warning warning-border">
+    <div class="inside-border">
+      <hgroup class="hgroup">
+        <div id = 'goBack2' class="colA1" style='visibility: hidden;'>go back</div>
+        <div class="colB"><h1>VERIFIED</h1></div>
+        <div id= 'skipToThankYou2' class="colC1" style='visibility: hidden;'>skip</div>
+        <div class="clear"></div>
+      </hgroup>
+      <div class="right-mark"></div>
+      <div class="warnning-text">You have been emailed
+        the software download
+        information.</div>
+    </div>
+  </div>
+</div>
+
+</form>
+<script>
+  
+</script>
+
+    
+    
+  </div>
+</div>
+</body>
+</html>
+
+</html>

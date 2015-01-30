@@ -1,0 +1,1177 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="utf-8">
+
+  <!-- disable iPhone inital scale -->
+  <meta name="viewport"  content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+
+  <title>Produk.me</title>
+  <link href="/assets/application-tite-survey-d649d7b4c465201d653fecf944b5c5cd.css" media="screen" rel="stylesheet" type="text/css" /><script src="/assets/surveyor/jquery-1.9.0-49b02a507ed73936b956d96526036809.js" type="text/javascript"></script>
+<script src="/assets/surveyor/jquery-ui-1.10.0.custom-b77b1561dd61d6b775a48b8ecac571f0.js" type="text/javascript"></script>
+<script src="/assets/surveyor/jquery-ui-timepicker-addon-7872266baf03b12d75b8afecd15f00a6.js" type="text/javascript"></script>
+<script src="/assets/surveyor/jquery.selectToUISlider-cd339e13b20dd3b5f992f042ebb08ee5.js" type="text/javascript"></script>
+<script src="/assets/surveyor/jquery.surveyor-8068ca0b9cd92750f670dac2a10e9ed4.js" type="text/javascript"></script>
+<script src="/assets/surveyor/jquery.maskedinput-13ad8482684294194a2c0af22593f14c.js" type="text/javascript"></script>
+<script src="/assets/surveyor/popup_dialog-1dab3260e7e977a3f13f032cf04106ef.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/flipCounter-7ecfe2595dc360c0c16fd61c67e3d474.js" type="text/javascript"></script>
+<script src="/assets/highcharts/highcharts-e87a083387f5e8c9b8ff786f4dbd74a5.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/survey_utilities-f14ece1d7f61faf79a546bd9fc9e8958.js" type="text/javascript"></script>
+<script src="/assets/jquery.jcarousel.min-f0f691e9d46894bf473ca72263ee641c.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/jquery-idle-fdd5f2769f92899cf3bff976cbccb10d.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/mobile_survey-c5c68bf90d42995ed6d1024374d501d1.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/touch-8bd7a5268495207ecce771c484c5c056.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/swiper-22ce1d1762dd2805274dcc8fc2f3fd7a.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/8bitlit-4897324e28f54c63e8ff2a713f4f30f1.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/tite-2a008435e88e18c56a21a58902df3912.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/orient-91c2acc94cb64cf33cbda93bc2ac93e6.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/enquire-e9e5e0e86f2a53c5dfff03dedb807eca.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/cookies-9c2fa8603a695c6c26d80227ced88fd9.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/numeric-b9fbd44792cdc9922673343f324937f1.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/jStepper-fbf5d0a3c8f2f6c5edf73ba2e58918bd.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/color/spectrum-4fee4f2172fa2ad4970b06e1f008bd1d.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/color/prettify-41288e406d9da3e172c77bea2a412c87.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/color/jquery.spectrum-en-c4058969ea089d0d1609da5f3ca5ab75.js" type="text/javascript"></script>
+<script src="/assets/experiment_survey/color/example-d22075fc6ed26635d920f19a3a2e8108.js" type="text/javascript"></script>
+
+  <link rel="shortcut icon" href="images/favicon.ico" />
+  <!-- html5.js for IE less than 9 -->
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- css3-mediaqueries.js for IE less than 9 -->
+  <!--[if lt IE 9]>
+  <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <![endif]-->
+  <link href="/assets/mobile/css480x800/font-face-99c2073309809a3e49a3d7ca1b760a92.css" media="screen" rel="stylesheet" type="text/css" />
+      <link href="/assets/mobile/css480x800/tite-24c4b1be25e0e71a5f32f8baf14ece33.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="/assets/mobile/css480x800/media-queries-25e67f62e1d6bbc26039cfeb74e7af0a.css" media="screen" rel="stylesheet" type="text/css" />
+  <script src="/assets/surveyor/popup_dialog-1dab3260e7e977a3f13f032cf04106ef.js" type="text/javascript"></script>
+  <script src="http://connect.facebook.net/en_US/all.js"></script>
+  <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+  <script type="text/javascript" src="http://platform.linkedin.com/in.js">
+      api_key: 759fp1hqnnrare
+      scope:r_basicprofile,r_emailaddress,r_network,r_fullprofile
+      onLoad: onLinkedInLoad
+      authorize: true
+      credentials_cookie: true
+  </script>
+  <script type="text/javascript">
+      var answer = "0,0,0,0,0,0,0,0,0";
+      var answer_for_tite = "0,0,0,0,0,0,0,0,0,0,0,0,0";
+      var user_score = parseInt("2");
+      photoUrl = "";
+
+      jQuery(document).on('ready', function(){
+          setAnswerFlagForResult(answer);
+          setAnswerFlagForResultForTite(answer_for_tite);
+          $('.filter-yellow1').html(user_score);
+          if (sessionStorage.user && sessionStorage.user.length > 0)
+          {
+              $('.username').find('img:first').css("visibility","visible");
+              if($('#TITESURVEY').length && !$('.fabripod_checkin').length)
+              {
+                  surveyQuestionSwiper.removeSlide(9);
+                  surveyQuestionSwiper.removeSlide(10);
+              }
+              else if ($('#TITESURVEY').length && $('.fabripod_checkin').length)
+              {
+                  surveyQuestionSwiper.removeSlide(8);
+                  surveyQuestionSwiper.removeSlide(9);
+              }
+              changeCount = 1;
+              hiddenScreens = $('[id^="screen"]');
+              hiddenScreens.each(function(){
+                  var  newScreenName = "screen" + changeCount;
+                  $(this).attr("id", newScreenName);
+                  changeCount = changeCount + 1;
+              });
+              setPageForUser();
+              userName = getUserName(sessionStorage.user);
+              if(!($(".username:contains("+ userName +")").length))
+              {
+                  $('.username').find('img:first').after(userName);
+              }
+              $('.loginDone').hide();
+              $('.btnshadow').hide();
+          }
+          else
+          {
+              setPageForUser();
+          }
+
+          if(photoUrl.length >0)
+          {
+              $("<img/>").attr("src", photoUrl).load(function(){
+                  profile_pic = {w:this.width, h:this.height};
+                  var default_width = $('#width').val();
+                  var default_height = $('#height').val();
+
+                  console.log(default_height);
+                  var final_width = profile_pic.w ;
+                  var final_height = profile_pic.h;
+                  var ratio = profile_pic.h / profile_pic.w ;
+                  if(profile_pic.w >= default_width && ratio <= 1)
+                  {
+                      var height_pic = profile_pic.w*ratio;
+                      if(height_pic > default_height)
+                      {
+                          final_height = default_height;
+                      }
+                      final_width = default_width;
+
+                  }else if(profile_pic.h >= default_height)
+                  {
+                      var width_pic = profile_pic.h*ratio;
+                      if(width_pic > default_width)
+                      {
+                          final_width = default_width;
+                      }
+                      final_height = default_height;
+
+                  }
+                  $('#file_upload_button').attr('src', '/assets/8bitlit/camera-button.png');
+                  $('img#myImage').attr("src", photoUrl);
+                  $('img#myImage').attr("style", "height:"+final_height+"px;width:"+final_width+"px;");
+
+              });
+
+          }
+
+          $('.twitter_login_for_8bitlit').click(function () {
+              $('#login_with_twitter').click();
+          });
+      });
+  </script>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-47208632-4']);
+    _gaq.push(['_setDomainName', 'produk.me']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+
+</head>
+<body class="oStatic oIndex">
+<div class="container">
+      <a href="http://www.linkedin.com/shareArticle?title=They+are+cool+headphones+that+prevent+tangling+of+cables%2E+Love+them%2E+Powered+by+Produk%2Eme+%40+http%3A%2F%2Fproduk%2Eme%2Fsurvey%2Ftite&mini=true&submitted-image-url=http%3A%2F%2Fproduk%2Eme%2Fassets%2Ftite%2Funwrapping-c62b8aa4fc0d6e7dd1dd7f3d7f231040%2Ejpg&url=http%3A%2F%2Fproduk%2Eme%2Ftite%2Fsurvey&source=http%3A%2F%2Fproduk%2Eme%2Ftite%2Fsurvey"  class="share linkedin" style = 'display:none;' id = 'share_on_linked_in'>Share on LinkedIn</a>
+<a  href = "/auth/twitter"  class = "share twitter_login" style = 'display:none;' id = 'login_with_twitter'> </a>
+
+
+  <div class="mainbody">
+    <form accept-charset="UTF-8" action="/survey/54cb2adec1e7155252000001" class="formtastic expriment_survey_result" data-remote="true" enctype="multipart/form-data" id="edit_expriment_survey_result_54cb2adec1e7155252000001" method="post" novalidate="novalidate"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="_method" type="hidden" value="put" /><input name="authenticity_token" type="hidden" value="ZsA/SdDEDLRFBpxSeDXGM2QQvUEgbYQcIVhDYgYWxnQ=" /></div>
+<input id="expriment_survey_result_userId" name="expriment_survey_result[userId]" type="hidden" value="" />
+<input id="expriment_survey_result_survey_id" name="expriment_survey_result[survey_id]" type="hidden" value="54cb2adec1e7155252000001" />
+<input id="expriment_survey_result_social_score_points" name="expriment_survey_result[social_score_points]" type="hidden" value="0" />
+<input id="expriment_survey_result_user_step" name="expriment_survey_result[user_step]" type="hidden" value="1" />
+<input id="expriment_survey_result_answer_flag" name="expriment_survey_result[answer_flag]" type="hidden" value="0,0,0,0,0,0,0,0" />
+<input id="expriment_survey_result_answer_flag_for_tite" name="expriment_survey_result[answer_flag_for_tite]" type="hidden" value="0,0,0,0,0,0,0,0,0,0,0,0,0" />
+<div id='TITESURVEY'></div>
+<div class='swiper-container-question'>
+<div class='swiper-wrapper'>
+<div class='swiper-slide'>
+<div id='screen1'>
+<div id='pagewrap'>
+<div class='topspace'>
+<div class='button1'>
+<a class='questionNext'>open</a>
+</div>
+<div class='btnshadow'></div>
+<div class='filter-yellow'>2</div>
+</div>
+</div>
+<div id='pagewrap'>
+<div class='lampImage'>
+<img alt="Unwrapping" class="background" src="/assets/tite/unwrapping-c62b8aa4fc0d6e7dd1dd7f3d7f231040.jpg" />
+<div class='topspace'>
+<div class='button1'>
+<a class='questionNext openWrap'>open</a>
+</div>
+<div class='btnshadow'></div>
+<div class='filter-yellow' id='score_tite'>2</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class='swiper-slide'>
+<div id='screen2'>
+<div id='pagewrap'>
+<header class='header'>
+<div class='right'>
+<img alt="Tite" src="/assets/tite/tite-ea08399b6bd00b14d49c88626e0e66ea.png" />
+</div>
+<div class='topmenu'>
+<ul>
+<li>
+<a href='javascript://'>
+<img alt="Facebook" class="share_facebook_for_tite" src="/assets/8bitlit/facebook-c97f2228431e7208138d0e96bcfed7b8.png" />
+</a>
+</li>
+<li>
+<a class='shareLinkFor8bitLink' href='https://twitter.com/intent/tweet' id='shareLink'>
+<img alt="Twitter" id="twitter_share" src="/assets/8bitlit/twitter-0020193f1277c813095c4f9bd53ea785.png" />
+</a>
+</li>
+<li>
+<a href='javascript://'>
+<img alt="Linkedin" class="linked_in_share" src="/assets/8bitlit/linkedin-03c763bb092429e514d267e021581112.png" />
+</a>
+</li>
+</ul>
+</div>
+<div class='pointsmeter1 pointsmeter-amount'>
+2/16
+</div>
+<div class='username userName'>
+<img align="absmiddle" alt="User-head-icon" src="/assets/8bitlit/user-head-icon-81ff3174a691a2c76875c35ba376dd83.png" style="visibility: hidden;" />
+
+</div>
+</header>
+<div class='row bottom-shadow'></div>
+
+<!-- Start Content -->
+<div id='content'>
+<hgroup class='hgroup'>
+<div class='colA'></div>
+<div class='colB'>
+<h1>WELCOME</h1>
+</div>
+<div class='colC'></div>
+<div class='clear'></div>
+</hgroup>
+<div class='filter-fant-gray' id='score_tite_1'>
+2
+<div class='watch' style='float: inherit;margin: -14px 0px 0px 0px;width: 89%;'></div>
+</div>
+<div class='whitebg'>
+<div class='setup'>
+Complete the survey to enter the raffle.
+<br>
+Listen to Tite founder -
+<br>
+Greg Fisher talk about the prize!
+</div>
+<div class='video'>
+<div class='post-image auto-resizable-iframe' id='video_from_youtube_for_tite' style='display:none;'></div>
+<div class='post-image' id='play_youtube_video'>
+<img alt="Video-background" class="play_youtube_video" src="/assets/8bitlit/video-background-505adcf66f81a3dc92f33ddf89b39d26.jpg" />
+</div>
+</div>
+<div class='bottom-shadow'></div>
+</div>
+<div></div>
+</div>
+<!-- End Content -->
+</div>
+</div>
+
+</div>
+<div class='swiper-slide'>
+<div id='screen3'>
+<div id='pagewrap'>
+<header class='header'>
+<div class='right'>
+<img alt="Tite" src="/assets/tite/tite-ea08399b6bd00b14d49c88626e0e66ea.png" />
+</div>
+<div class='topmenu'>
+<ul>
+<li>
+<a href='javascript://'>
+<img alt="Facebook" class="share_facebook_for_tite" src="/assets/8bitlit/facebook-c97f2228431e7208138d0e96bcfed7b8.png" />
+</a>
+</li>
+<li>
+<a class='shareLinkFor8bitLink' href='https://twitter.com/intent/tweet' id='shareLink'>
+<img alt="Twitter" id="twitter_share" src="/assets/8bitlit/twitter-0020193f1277c813095c4f9bd53ea785.png" />
+</a>
+</li>
+<li>
+<a href='javascript://'>
+<img alt="Linkedin" class="linked_in_share" src="/assets/8bitlit/linkedin-03c763bb092429e514d267e021581112.png" />
+</a>
+</li>
+</ul>
+</div>
+<div class='pointsmeter2 pointsmeter-amount'>
+2/16
+</div>
+<div class='username userName'>
+<img align="absmiddle" alt="User-head-icon" src="/assets/8bitlit/user-head-icon-81ff3174a691a2c76875c35ba376dd83.png" style="visibility: hidden;" />
+
+</div>
+</header>
+<div class='row bottom-shadow'></div>
+
+<div id='content'>
+<hgroup class='hgroup'>
+<div class='colA'></div>
+<div class='colB'>
+<h1>SURVEY</h1>
+</div>
+<div class='colC'></div>
+<div class='clear'></div>
+</hgroup>
+<div class='filter-fant-gray' id='score5'>2</div>
+<div class='video'>
+<div class='whitebg'>
+<div class='setup'>
+How easy was it to enclose the headphone
+<br>
+wires into a loop with the 'wrapping' wire?
+</div>
+<div class='survey'>
+<img alt="Survey-question-1new" src="/assets/tite/survey-question-1new-43c0545cb12f93a7fdc13293ccf22a6c.jpg" />
+</div>
+<div class='slide_parts'>
+<div class='easy' id='q1ThumbUp'></div>
+<div class='pagination' id='sliderCell1'>
+<select id="expriment_survey_result_answer1" name="expriment_survey_result[answer1]"><option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option></select>
+</div>
+<div class='hard' id='q1ThumbDown'></div>
+<div class='clear'></div>
+</div>
+</div>
+<div class='bottom-shadow'></div>
+<input id="expriment_survey_result_question1" name="expriment_survey_result[question1]" type="hidden" value="How easy was it to enclose the headphone wires into a loop with the &#x27;wrapping&#x27; wire?" />
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class='swiper-slide'>
+<div id='screen4'>
+<div id='pagewrap'>
+<header class='header'>
+<div class='right'>
+<img alt="Tite" src="/assets/tite/tite-ea08399b6bd00b14d49c88626e0e66ea.png" />
+</div>
+<div class='topmenu'>
+<ul>
+<li>
+<a href='javascript://'>
+<img alt="Facebook" class="share_facebook_for_tite" src="/assets/8bitlit/facebook-c97f2228431e7208138d0e96bcfed7b8.png" />
+</a>
+</li>
+<li>
+<a class='shareLinkFor8bitLink' href='https://twitter.com/intent/tweet' id='shareLink'>
+<img alt="Twitter" id="twitter_share" src="/assets/8bitlit/twitter-0020193f1277c813095c4f9bd53ea785.png" />
+</a>
+</li>
+<li>
+<a href='javascript://'>
+<img alt="Linkedin" class="linked_in_share" src="/assets/8bitlit/linkedin-03c763bb092429e514d267e021581112.png" />
+</a>
+</li>
+</ul>
+</div>
+<div class='pointsmeter2 pointsmeter-amount'>
+4/16
+</div>
+<div class='username userName'>
+<img align="absmiddle" alt="User-head-icon" src="/assets/8bitlit/user-head-icon-81ff3174a691a2c76875c35ba376dd83.png" style="visibility: hidden;" />
+
+</div>
+</header>
+<div class='row bottom-shadow'></div>
+
+<div id='content'>
+<hgroup class='hgroup'>
+<div class='colA'></div>
+<div class='colB'>
+<h1>SURVEY</h1>
+</div>
+<div class='colC'></div>
+<div class='clear'></div>
+</hgroup>
+<div class='filter-fant-gray' id='score6'>2</div>
+<div class='video'>
+<div class='whitebg'>
+<div class='setup'>Did we solve this problem:	“My earbud cables don’t get tangeled when not in any use anymore?”</div>
+<div class='survey'>
+<img alt="Survey-question-2new" src="/assets/tite/survey-question-2new-523307a357e36ee45b45f7402d62d3f6.jpg" />
+</div>
+<div class='slide_parts'>
+<div class='up-hand' id='q2ThumbUp'></div>
+<div class='pagination' id='sliderCell2'>
+<select id="expriment_survey_result_answer2" name="expriment_survey_result[answer2]"><option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option></select>
+</div>
+<div class='down-hand' id='q2ThumbDown'></div>
+<div class='clear'></div>
+</div>
+</div>
+<div class='bottom-shadow'></div>
+<input id="expriment_survey_result_question2" name="expriment_survey_result[question2]" type="hidden" value="Did we solve this problem:&quot;My earbud cables don’t get tangeled when not in any use anymore?”" />
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class='swiper-slide'>
+<div id='screen5'>
+<div id='pagewrap'>
+<header class='header'>
+<div class='right'>
+<img alt="Tite" src="/assets/tite/tite-ea08399b6bd00b14d49c88626e0e66ea.png" />
+</div>
+<div class='topmenu'>
+<ul>
+<li>
+<a href='javascript://'>
+<img alt="Facebook" class="share_facebook_for_tite" src="/assets/8bitlit/facebook-c97f2228431e7208138d0e96bcfed7b8.png" />
+</a>
+</li>
+<li>
+<a class='shareLinkFor8bitLink' href='https://twitter.com/intent/tweet' id='shareLink'>
+<img alt="Twitter" id="twitter_share" src="/assets/8bitlit/twitter-0020193f1277c813095c4f9bd53ea785.png" />
+</a>
+</li>
+<li>
+<a href='javascript://'>
+<img alt="Linkedin" class="linked_in_share" src="/assets/8bitlit/linkedin-03c763bb092429e514d267e021581112.png" />
+</a>
+</li>
+</ul>
+</div>
+<div class='pointsmeter3 pointsmeter-amount'>
+6/16
+</div>
+<div class='username userName'>
+<img align="absmiddle" alt="User-head-icon" src="/assets/8bitlit/user-head-icon-81ff3174a691a2c76875c35ba376dd83.png" style="visibility: hidden;" />
+
+</div>
+</header>
+<div class='row bottom-shadow'></div>
+
+<!-- Start Content -->
+<div id='content'>
+<hgroup class='hgroup'>
+<div class='colA'></div>
+<div class='colB'>
+<h1>SURVEY</h1>
+</div>
+<div class='colC'></div>
+<div class='clear'></div>
+</hgroup>
+<div class='filter-fant-gray' id='score2'>2</div>
+<div class='video'>
+<div class='whitebg'>
+<div class='setup'>
+After having a chance to try them out,
+did you use the tite headphones to replace
+your normal headphones?
+</div>
+<div class='survey'>
+<img alt="Survey-question-3" src="/assets/tite/survey-question-3-9d1a4119e2e4560189abca7c28f7a2d9.jpg" />
+</div>
+<div class='parts parts2'>
+<a class='positive_respose_class' href='javascript://' id='positive_respose'>
+<div class='up-hand1' id='postive_respose_img'></div>
+</a>
+<a class='negative_respose_class' href='javascript://' id='negative_respose'>
+<div class='down-hand1' id='negative_respose_img'></div>
+</a>
+<div class='clear'></div>
+</div>
+</div>
+<div class='bottom-shadow'></div>
+<input id="expriment_survey_result_question3" name="expriment_survey_result[question3]" type="hidden" value="After having a chance to try them out, did you use the tite headphones to replace your normal headphones?" />
+<input id="expriment_survey_result_answer3" name="expriment_survey_result[answer3]" type="hidden" value=" " />
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class='swiper-slide'>
+<div id='screen6'>
+<div id='pagewrap'>
+<header class='header'>
+<div class='right'>
+<img alt="Tite" src="/assets/tite/tite-ea08399b6bd00b14d49c88626e0e66ea.png" />
+</div>
+<div class='topmenu'>
+<ul>
+<li>
+<a href='javascript://'>
+<img alt="Facebook" class="share_facebook_for_tite" src="/assets/8bitlit/facebook-c97f2228431e7208138d0e96bcfed7b8.png" />
+</a>
+</li>
+<li>
+<a class='shareLinkFor8bitLink' href='https://twitter.com/intent/tweet' id='shareLink'>
+<img alt="Twitter" id="twitter_share" src="/assets/8bitlit/twitter-0020193f1277c813095c4f9bd53ea785.png" />
+</a>
+</li>
+<li>
+<a href='javascript://'>
+<img alt="Linkedin" class="linked_in_share" src="/assets/8bitlit/linkedin-03c763bb092429e514d267e021581112.png" />
+</a>
+</li>
+</ul>
+</div>
+<div class='pointsmeter4 pointsmeter-amount'>
+8/16
+</div>
+<div class='username userName'>
+<img align="absmiddle" alt="User-head-icon" src="/assets/8bitlit/user-head-icon-81ff3174a691a2c76875c35ba376dd83.png" style="visibility: hidden;" />
+
+</div>
+</header>
+<div class='row bottom-shadow'></div>
+
+<!-- Start Content -->
+</div>
+<div id='content'>
+<hgroup class='hgroup'>
+<div class='colA'></div>
+<div class='colB'>
+<h1>SURVEY</h1>
+</div>
+<div class='colC'></div>
+<div class='clear'></div>
+</hgroup>
+<div class='filter-fant-gray' id='score3'>2</div>
+<div class='video'>
+<div class='whitebg'>
+<div class='setup'>
+How likely are you to refer
+<br>
+this product to a friend?
+</div>
+<div class='survey'>
+<div class='survey-question4'>
+<img alt="Survey-question-4" src="/assets/tite/survey-question-4-b00993d99f33f76b78d6b00efff5eef4.jpg" />
+<div class='survey-question4_fb'>
+<a href='javascript://'>
+<img alt="Facebook" class="share_facebook_for_tite" src="/assets/tite/facebook-c97f2228431e7208138d0e96bcfed7b8.png" />
+</a>
+</div>
+<div class='survey-question4_twitter'>
+<a class='shareLinkFor8bitLink' href='https://twitter.com/intent/tweet' id='shareLink'>
+<img alt="Twitter" id="twitter_share" src="/assets/tite/twitter-0020193f1277c813095c4f9bd53ea785.png" />
+</a>
+</div>
+</div>
+</div>
+<div class='slide_parts'>
+<div class='up-hand-likely' id='q3ThumbUp'></div>
+<div class='pagination' id='sliderCell3'>
+<select id="expriment_survey_result_answer4" name="expriment_survey_result[answer4]"><option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option></select>
+</div>
+<div class='down-hand-unlikely' id='q3ThumbDown'></div>
+<div class='clear'></div>
+</div>
+</div>
+<div class='bottom-shadow'>
+<input id="expriment_survey_result_question4" name="expriment_survey_result[question4]" type="hidden" value="How likely are you to refer this product to a friend?" />
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class='swiper-slide'>
+<div id='screen7'>
+<div id='pagewrap'>
+<header class='header'>
+<div class='right'>
+<img alt="Tite" src="/assets/tite/tite-ea08399b6bd00b14d49c88626e0e66ea.png" />
+</div>
+<div class='topmenu'>
+<ul>
+<li>
+<a href='javascript://'>
+<img alt="Facebook" class="share_facebook_for_tite" src="/assets/8bitlit/facebook-c97f2228431e7208138d0e96bcfed7b8.png" />
+</a>
+</li>
+<li>
+<a class='shareLinkFor8bitLink' href='https://twitter.com/intent/tweet' id='shareLink'>
+<img alt="Twitter" id="twitter_share" src="/assets/8bitlit/twitter-0020193f1277c813095c4f9bd53ea785.png" />
+</a>
+</li>
+<li>
+<a href='javascript://'>
+<img alt="Linkedin" class="linked_in_share" src="/assets/8bitlit/linkedin-03c763bb092429e514d267e021581112.png" />
+</a>
+</li>
+</ul>
+</div>
+<div class='pointsmeter5 pointsmeter-amount'>
+10/16
+</div>
+<div class='username userName'>
+<img align="absmiddle" alt="User-head-icon" src="/assets/8bitlit/user-head-icon-81ff3174a691a2c76875c35ba376dd83.png" style="visibility: hidden;" />
+
+</div>
+</header>
+<div class='row bottom-shadow'></div>
+
+<!-- Start Content -->
+<div id='content'>
+<hgroup class='hgroup'>
+<div class='colA'></div>
+<div class='colB'>
+<h1>SURVEY</h1>
+</div>
+<div class='colC'></div>
+<div class='clear'></div>
+</hgroup>
+<div class='filter-fant-gray' id='score11'>2</div>
+<div class='video'>
+<div class='whitebg'>
+<div class='setup'>
+If you could make one improvement
+to the headphones, what would it be?
+</div>
+<div class='survey3'>
+<img alt="Product-img" src="/assets/tite/product-img-5b745c3caabecccb5fa5b6696dcdea42.jpg" />
+<textarea class="thankyou-comment1" cols="40" id="expriment_survey_result_answer9" name="expriment_survey_result[answer9]" rows="20" style="text-align:left;">
+</textarea>
+</div>
+<div class='clear'></div>
+</div>
+<div class='bottom-shadow'></div>
+<input id="expriment_survey_result_question9" name="expriment_survey_result[question9]" type="hidden" value="If you could make one improvement to the headphones, what would it be?" />
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class='swiper-slide'>
+<div id='screen8'>
+<div id='pagewrap'>
+<header class='header'>
+<div class='right'>
+<img alt="Tite" src="/assets/tite/tite-ea08399b6bd00b14d49c88626e0e66ea.png" />
+</div>
+<div class='topmenu'>
+<ul>
+<li>
+<a href='javascript://'>
+<img alt="Facebook" class="share_facebook_for_tite" src="/assets/8bitlit/facebook-c97f2228431e7208138d0e96bcfed7b8.png" />
+</a>
+</li>
+<li>
+<a class='shareLinkFor8bitLink' href='https://twitter.com/intent/tweet' id='shareLink'>
+<img alt="Twitter" id="twitter_share" src="/assets/8bitlit/twitter-0020193f1277c813095c4f9bd53ea785.png" />
+</a>
+</li>
+<li>
+<a href='javascript://'>
+<img alt="Linkedin" class="linked_in_share" src="/assets/8bitlit/linkedin-03c763bb092429e514d267e021581112.png" />
+</a>
+</li>
+</ul>
+</div>
+<div class='pointsmeter5 pointsmeter-amount'>
+12/16
+</div>
+<div class='username userName'>
+<img align="absmiddle" alt="User-head-icon" src="/assets/8bitlit/user-head-icon-81ff3174a691a2c76875c35ba376dd83.png" style="visibility: hidden;" />
+
+</div>
+</header>
+<div class='row bottom-shadow'></div>
+
+<!-- Start Content -->
+<div id='content'>
+<hgroup class='hgroup'>
+<div class='colA'></div>
+<div class='colB'>
+<h1>SURVEY</h1>
+</div>
+<div class='colC'></div>
+<div class='clear'></div>
+</hgroup>
+<div class='filter-fant-gray' id='score4'>2</div>
+<div class='video'>
+<div class='whitebg'>
+<div class='setup'>
+If you encountered any problems with
+<br>
+the headphones, please let us know here.
+</div>
+<div class='problems'>
+<div class='survey4'>
+<img alt="Problems" src="/assets/tite/problems-df4ca9f75318807f040c96ad2f7383bc.jpg" />
+<div class='parts2 fr'>
+<a class='positive_respose_class' href='javascript://' id='positive_respose2'>
+<div class='up-hand1' id='postive_respose_img2'></div>
+</a>
+<a class='negative_respose_class' href='javascript://' id='negative_respose2'>
+<div class='down-hand1' id='negative_respose_img2'></div>
+</a>
+</div>
+</div>
+</div>
+<div class='clear'></div>
+<div class='parts'>
+<textarea class="thankyou-comment1" cols="40" id="expriment_survey_result_answer5_comment" name="expriment_survey_result[answer5_comment]" rows="20" style="text-align:left;">
+</textarea>
+</div>
+<div class='clear'></div>
+</div>
+<div class='bottom-shadow'></div>
+<input id="expriment_survey_result_question5" name="expriment_survey_result[question5]" type="hidden" value="If you encountered any problems with the headphones, please let us know here." />
+<input id="expriment_survey_result_answer5" name="expriment_survey_result[answer5]" type="hidden" value=" " />
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class='swiper-slide'>
+<div id='screen9'>
+<div id='pagewrap'>
+<header class='header'>
+<div class='right'>
+<img alt="Tite" src="/assets/tite/tite-ea08399b6bd00b14d49c88626e0e66ea.png" />
+</div>
+<div class='topmenu'>
+<ul>
+<li>
+<a href='javascript://'>
+<img alt="Facebook" class="share_facebook_for_tite" src="/assets/8bitlit/facebook-c97f2228431e7208138d0e96bcfed7b8.png" />
+</a>
+</li>
+<li>
+<a class='shareLinkFor8bitLink' href='https://twitter.com/intent/tweet' id='shareLink'>
+<img alt="Twitter" id="twitter_share" src="/assets/8bitlit/twitter-0020193f1277c813095c4f9bd53ea785.png" />
+</a>
+</li>
+<li>
+<a href='javascript://'>
+<img alt="Linkedin" class="linked_in_share" src="/assets/8bitlit/linkedin-03c763bb092429e514d267e021581112.png" />
+</a>
+</li>
+</ul>
+</div>
+<div class='pointsmeter6 pointsmeter-amount'>
+14/16
+</div>
+<div class='username userName'>
+<img align="absmiddle" alt="User-head-icon" src="/assets/8bitlit/user-head-icon-81ff3174a691a2c76875c35ba376dd83.png" style="visibility: hidden;" />
+
+</div>
+</header>
+<div class='row bottom-shadow'></div>
+
+<div id='content'>
+<hgroup class='hgroup'>
+<div class='colA'></div>
+<div class='colB'>
+<h1>SURVEY</h1>
+</div>
+<div class='colC'></div>
+<div class='clear'></div>
+</hgroup>
+<div class='filter-fant-gray' id='score8'>2</div>
+<div class='video'>
+<div class='whitebg'>
+<div class='setup'>
+<span>
+What is the
+</span>
+<span>
+<b>
+least
+</b>
+</span>
+<span>
+you would expect to pay
+</span>
+for a pair of tite headphones?
+</div>
+<div class='survey'>
+<div class='survey-question6a'>
+<img alt="Survey-question-6a2" src="/assets/tite/survey-question-6a2-74102f0362ea831ffb59f58ae83079f4.jpg" />
+<div class='amount'>
+<input class="input-amount price1_2 amountQuestion2" id="expriment_survey_result_answer7" maxlength="3" name="expriment_survey_result[answer7]" size="3" type="text" value="" />
+</div>
+</div>
+</div>
+</div>
+<div class='bottom-shadow'></div>
+<input id="expriment_survey_result_question7" name="expriment_survey_result[question7]" type="hidden" value="What is the least you would expect to pay for a pair of tite headphones?" />
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class='swiper-slide'>
+<div id='screen10'>
+<div id='pagewrap'>
+<header class='header'>
+<div class='right'>
+<img alt="Tite" src="/assets/tite/tite-ea08399b6bd00b14d49c88626e0e66ea.png" />
+</div>
+<div class='topmenu'>
+<ul>
+<li>
+<a href='javascript://'>
+<img alt="Facebook" class="share_facebook_for_tite" src="/assets/8bitlit/facebook-c97f2228431e7208138d0e96bcfed7b8.png" />
+</a>
+</li>
+<li>
+<a class='shareLinkFor8bitLink' href='https://twitter.com/intent/tweet' id='shareLink'>
+<img alt="Twitter" id="twitter_share" src="/assets/8bitlit/twitter-0020193f1277c813095c4f9bd53ea785.png" />
+</a>
+</li>
+<li>
+<a href='javascript://'>
+<img alt="Linkedin" class="linked_in_share" src="/assets/8bitlit/linkedin-03c763bb092429e514d267e021581112.png" />
+</a>
+</li>
+</ul>
+</div>
+<div class='pointsmeter7 pointsmeter-amount'>
+16/16
+</div>
+<div class='username userName'>
+<img align="absmiddle" alt="User-head-icon" src="/assets/8bitlit/user-head-icon-81ff3174a691a2c76875c35ba376dd83.png" style="visibility: hidden;" />
+
+</div>
+</header>
+<div class='row bottom-shadow'></div>
+
+<div id='content'>
+<hgroup class='hgroup'>
+<div class='colA' id='loginPrevious'></div>
+<div class='colB'>
+<h1>ENTER RAFFLE</h1>
+</div>
+<div class='colC nextScreen loginNext'></div>
+<div class='clear'></div>
+</hgroup>
+<div class='filter-yellow'>2</div>
+<div class='clear'></div>
+<div class='viewer_sociallink'>
+<a href='javascript://' style='color:#FFFFFF;'>
+<img alt="Facebook" class="login_facebook_for_8bitlit" src="/assets/mobile/facebook-c97f2228431e7208138d0e96bcfed7b8.png" />
+</a>
+<a href='javascript://' style='color:#FFFFFF;'>
+<img alt="Twitter" class="twitter_login_for_8bitlit" src="/assets/mobile/twitter-0020193f1277c813095c4f9bd53ea785.png" />
+</a>
+<a href='javascript://' style='color:#FFFFFF;'>
+<img alt="Linkedin" class="linked_in_login_for_8bitlit" src="/assets/mobile/linkedin-03c763bb092429e514d267e021581112.png" />
+</a>
+</div>
+<p>
+<img alt="Question-mark" src="/assets/mobile/question-mark-c9de06d1324a483024b0742e98df00c9.png" style="margin-bottom:-5px;" />
+<span>Or enter information:</span>
+</p>
+<div class='viewer-input-wrapper'>
+<div class='input_wrapper'>
+<input class="first_name" id="expriment_survey_result_user_name" name="expriment_survey_result[user_name]" placeholder="First Name:" size="30" type="text" value="" />
+</div>
+<div class='input_wrapper'>
+<input class="last_name" id="expriment_survey_result_last_name" name="expriment_survey_result[last_name]" placeholder="Last Name:" size="30" type="text" value="" />
+</div>
+<div class='input_wrapper'>
+<input class="tite_survey_email" id="expriment_survey_result_email" name="expriment_survey_result[email]" placeholder="Email Id:" size="30" type="text" value="" />
+</div>
+<div class='input_wrapper error' style='display:none; color:red;'></div>
+</div>
+<div class='button1'>
+<a class='loginWithtite'>Enter Raffle</a>
+</div>
+<div class='btnshadow'></div>
+<p>
+<span class='terms-condition'>terms and conditions</span>
+</p>
+</div>
+<!-- End Content -->
+</div>
+</div>
+
+</div>
+<div class='swiper-slide'>
+<div id='screen11'>
+<div id='divwrap'>
+<header class='header'>
+<div class='right'>
+<img alt="Tite" src="/assets/tite/tite-ea08399b6bd00b14d49c88626e0e66ea.png" />
+</div>
+<div class='topmenu'>
+<ul>
+<li>
+<a href='javascript://'>
+<img alt="Facebook" class="share_facebook_for_tite" src="/assets/8bitlit/facebook-c97f2228431e7208138d0e96bcfed7b8.png" />
+</a>
+</li>
+<li>
+<a class='shareLinkFor8bitLink' href='https://twitter.com/intent/tweet' id='shareLink'>
+<img alt="Twitter" id="twitter_share" src="/assets/8bitlit/twitter-0020193f1277c813095c4f9bd53ea785.png" />
+</a>
+</li>
+<li>
+<a href='javascript://'>
+<img alt="Linkedin" class="linked_in_share" src="/assets/8bitlit/linkedin-03c763bb092429e514d267e021581112.png" />
+</a>
+</li>
+</ul>
+</div>
+<div class='pointsmeter7 pointsmeter-amount'>
+16/16
+</div>
+<div class='username userName'>
+<img align="absmiddle" alt="User-head-icon" src="/assets/8bitlit/user-head-icon-81ff3174a691a2c76875c35ba376dd83.png" style="visibility: hidden;" />
+
+</div>
+</header>
+<div class='row bottom-shadow'></div>
+
+<div id='content'>
+<hgroup class='hgroup'>
+<div class='colA loginPreviousTite'></div>
+<div class='colB'>
+<h1>CONGRATS!</h1>
+</div>
+<div class='colC nextScreen loginNext'></div>
+<div class='clear'></div>
+</hgroup>
+<div class='congrats-yellow'></div>
+<p>
+<b>Thank you for your input.</b>
+<br>
+<b>You have been entered into the Rafﬂe</b>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='swiper-slide'>
+<div id='screen12'>
+<div id='divwrap'>
+<header class='header'>
+<div class='right'>
+<img alt="Tite" src="/assets/tite/tite-ea08399b6bd00b14d49c88626e0e66ea.png" />
+</div>
+<div class='topmenu'>
+<ul>
+<li>
+<a href='javascript://'>
+<img alt="Facebook" class="share_facebook_for_tite" src="/assets/8bitlit/facebook-c97f2228431e7208138d0e96bcfed7b8.png" />
+</a>
+</li>
+<li>
+<a class='shareLinkFor8bitLink' href='https://twitter.com/intent/tweet' id='shareLink'>
+<img alt="Twitter" id="twitter_share" src="/assets/8bitlit/twitter-0020193f1277c813095c4f9bd53ea785.png" />
+</a>
+</li>
+<li>
+<a href='javascript://'>
+<img alt="Linkedin" class="linked_in_share" src="/assets/8bitlit/linkedin-03c763bb092429e514d267e021581112.png" />
+</a>
+</li>
+</ul>
+</div>
+<div class='pointsmeter7 pointsmeter-amount'>
+16/16
+</div>
+<div class='username userName'>
+<img align="absmiddle" alt="User-head-icon" src="/assets/8bitlit/user-head-icon-81ff3174a691a2c76875c35ba376dd83.png" style="visibility: hidden;" />
+
+</div>
+</header>
+<div class='row bottom-shadow'></div>
+
+<div id='content'>
+<hgroup class='hgroup'>
+<div class='colA loginPreviousTite'></div>
+<div class='colB'>
+<h1>CONGRATS  !</h1>
+</div>
+<div class='colC nextScreen loginNext'></div>
+<div class='clear'></div>
+</hgroup>
+<div class='congrats-yellow'></div>
+<p>
+<h1>Thank you for your input!</h1>
+</p>
+<div class='viewer_sociallink'>
+<a href='javascript://' style='color:#FFFFFF;'>
+<img alt="Facebook" class="login_facebook_for_8bitlit" src="/assets/mobile/facebook-c97f2228431e7208138d0e96bcfed7b8.png" />
+</a>
+<a href='javascript://' style='color:#FFFFFF;'>
+<img alt="Twitter" class="twitter_login_for_8bitlit" src="/assets/mobile/twitter-0020193f1277c813095c4f9bd53ea785.png" />
+</a>
+<a href='javascript://' style='color:#FFFFFF;'>
+<img alt="Linkedin" class="linked_in_login_for_8bitlit" src="/assets/mobile/linkedin-03c763bb092429e514d267e021581112.png" />
+</a>
+</div>
+<p>
+<img alt="Question-mark" src="/assets/mobile/question-mark-c9de06d1324a483024b0742e98df00c9.png" style="margin-bottom:-5px;" />
+<span>Or enter information:</span>
+</p>
+<div class='viewer-input-wrapper'>
+<div class='input_wrapper'>
+<input class="first_name1" id="expriment_survey_result_user_name" name="expriment_survey_result[user_name]" placeholder="First Name:" size="30" type="text" value="" />
+</div>
+<div class='input_wrapper'>
+<input class="last_name1" id="expriment_survey_result_last_name" name="expriment_survey_result[last_name]" placeholder="Last Name:" size="30" type="text" value="" />
+</div>
+<div class='input_wrapper'>
+<input class="tite_survey_email tite_survey_email1" id="expriment_survey_result_email" name="expriment_survey_result[email]" placeholder="Email Id:" size="30" type="text" value="" />
+</div>
+<div class='input_wrapper error' style='display:none; color:red;'></div>
+</div>
+<div class='button1'>
+<a class='loginWithtite1'>Enter Raffle</a>
+</div>
+<div class='btnshadow'></div>
+<p>
+<span class='terms-condition'>terms and conditions</span>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='swiper-slide'>
+<div id='screen13'>
+<div id='pagewrap'>
+<header class='header'>
+<div class='right'>
+<img alt="Tite" src="/assets/tite/tite-ea08399b6bd00b14d49c88626e0e66ea.png" />
+</div>
+<div class='topmenu'>
+<ul>
+<li>
+<a href='javascript://'>
+<img alt="Facebook" class="share_facebook_for_tite" src="/assets/8bitlit/facebook-c97f2228431e7208138d0e96bcfed7b8.png" />
+</a>
+</li>
+<li>
+<a class='shareLinkFor8bitLink' href='https://twitter.com/intent/tweet' id='shareLink'>
+<img alt="Twitter" id="twitter_share" src="/assets/8bitlit/twitter-0020193f1277c813095c4f9bd53ea785.png" />
+</a>
+</li>
+<li>
+<a href='javascript://'>
+<img alt="Linkedin" class="linked_in_share" src="/assets/8bitlit/linkedin-03c763bb092429e514d267e021581112.png" />
+</a>
+</li>
+</ul>
+</div>
+<div class='pointsmeter7 pointsmeter-amount'>
+16/16
+</div>
+<div class='username userName'>
+<img align="absmiddle" alt="User-head-icon" src="/assets/8bitlit/user-head-icon-81ff3174a691a2c76875c35ba376dd83.png" style="visibility: hidden;" />
+
+</div>
+</header>
+<div class='row bottom-shadow'></div>
+
+<div id='content'>
+<hgroup class='hgroup'>
+<div class='colA loginPreviousTite'></div>
+<div class='colB'></div>
+<div class='colC' style='display:none;'></div>
+<div class='clear'></div>
+<div class='thankyou-txt'>
+<h1 style='font-size:30x;font-weight:bold;text-align:center;'>THANK YOU!</h1>
+<div class='message' style='font-size:24px;font-weight:bold;text-align:center;'>
+<h1></h1>
+<span class='terms-condition' style='color:#000000;'>powered by</span>
+<span class='terms-condition'>Produk.</span>
+<span class='terms-condition' style='color:#000000;'>Me</span>
+</div>
+</div>
+<div class='thankyou-txt'>
+<h1 style='font-size:38x;text-align:center;'>Would love any other comments</h1>
+</div>
+<div class='clear'></div>
+</hgroup>
+<div class='video'>
+<div class='whitebg'>
+<div class='survey'>
+<textarea class="thankyou-comment" cols="40" id="expriment_survey_result_comment" name="expriment_survey_result[comment]" rows="20">
+</textarea>
+</div>
+</div>
+<div class='bottom-shadow'></div>
+</div>
+<div class='button2'>
+<a class='bookMarkitIt'>Bookmark this product</a>
+</div>
+<div class='btnshadow2'></div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class='pagination1'></div>
+<div id="popup" style="left: 390px; position: absolute; top: 242px; z-index: 9999; opacity: 1; display: block;">
+  <span class="button b-close"><span>X</span></span>
+  <h3 style = 'text-align:center;'>Sorry May be You are Not Logged In Or You Don't want to Share It</h3>
+</div>
+<div id="popup2" style="left: 200px; position: absolute; top: 242px; z-index: 9999; opacity: 1; display: none;">
+  <span class="button b-close"><span>X</span></span>
+  <div class="content"><p class = 'experiment_survey' style="line-height: 2;">Thank You For Sharing Survey</p> </div>
+</div>
+<div id="popup3" style="left: 200px; position: absolute; top: 242px; z-index: 9999; opacity: 1; display: block;">
+  <span class="button b-close"><span>X</span></span>
+  <div class="content"></div>
+</div>
+
+<div id="popup4" style="left: 390px; position: absolute; top: 242px; font-size: 16px; z-index: 9999; opacity: 1;display: none;">
+  <span class="button b-close"><span>X</span></span>
+<div id = 'for_scroll'>
+  <p class = 'experiment_survey' style="line-height: 2;">Produk.me would like to receive the following information : First Name,
+    Last Name and Email address</p>
+  <br/>
+  </div>
+  <center><span class="button" id="user_accepts">Yes</span>
+    <span class="button" id="user_rejects">No</span></center>
+</div>
+
+<div id="popup5" style="left: 200px; position: absolute; top: 242px; z-index: 9999; opacity: 1; display: none;">
+  <span class="button b-close"><span>X</span></span>
+  <div class="content"><p class = 'experiment_survey' style="line-height: 2;">Please respond to atleast one survey question to enter the
+    Raffle.</p> </div>
+</div>
+<div id="imagePopup" style="left: 200px; position: absolute; top: 30px; z-index: 9999; opacity: 1; width:100px;display:none;">
+  <span class="button b-close"><span>X</span></span>
+  <div id = 'imagePopupContent' class="content"></div>
+</div>
+
+</form>
+<script>
+  
+</script>
+
+  </div>
+</div>
+</body>
+
+</html>
